@@ -9,6 +9,15 @@ import '../styles/global.css';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Cosmic Idle Miner</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QN19RKW8MC"></script>
+        <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-QN19RKW8MC');
+        </script>
 	</head>
 	<body class="bg-gray-950 text-gray-100 min-h-screen overflow-x-hidden">
 		<slot />
