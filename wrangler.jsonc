@@ -1,6 +1,6 @@
 {
 	"main": "dist/_worker.js/index.js",
-	"name": "astrodemo",
+	"name": "astroidle",
   "compatibility_date": "2026-01-17",
   "compatibility_flags": [
     "nodejs_compat",
